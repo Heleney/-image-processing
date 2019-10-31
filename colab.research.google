@@ -1,0 +1,11 @@
+Ссылка
+https://colab.research.google.com
+
+Подключение GoogleDrive
+from google.colab import drive
+drive.mount('/content/drive')
+
+#Проверка подключения и чтения списка файлов
+ls 'drive/My Drive/Colab Notebooks'
+#Считывание данных
+Date= pd.read_csv('drive/My Drive/Colab Notebooks/МойФайл.Расширение')
